@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container_navbar {
+  display:flex;
+  justify-content: space-between;
+  margin: 50px;
+
+}
+
+.ico_menu {
+  position: fixed;
+}
+
+.email {
+  display:flex;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #221739;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 120px;
+  font-weight: lighter;
+  color: #221739;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pablo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 120px;
+  font-weight: 600;
+  text-align: center;
+  color: #66AAAA;
+  letter-spacing: -5pt;
+}
+
+.container_info {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #221739;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.ux {
+  font-weight: bold;
+}
+
+
+.city {
+  font-weight: bold;
+}
+
+.iphones {
+  width: 100%;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #66AAAA;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.macs {
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+
+.mac2 {
+  width: 100%;
+}
+
+footer {
+  background-color: #66AAAA;
+  height: 195px;
+  margin-top: 319px;
+}
+
+.container_footer {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  font-weight: lighter;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #FFFFFF;
+}
+
+
+.animation {
+  animation-name: animation;
+  animation-duration: 16s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+.animation2 {
+  animation-name: animation2;
+  animation-duration: 16s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+.place2 {
+  visibility: hidden;
+}
+
+
+@keyframes animation2 {
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0; -100%,0);
+  }
+
+  33% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0; -100%,0);
+  }
+
+
+
+  50% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0; 100%,0);
+  }
+
+  85% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0; 100%,0);
+  }
+
+  99% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 300%, 0);
+    transform: translate3d(0;300%,0);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animation {
+
+ 0% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0; 0,0);
+  }
+
+  33% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0; 0,0);
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0; 200%,0);
+  }
+
+  51% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -200%, 0);
+    transform: translate3d(0; -200%,0);
+  }
+
+  85% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -200%, 0);
+    transform: translate3d(0; -200%,0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
